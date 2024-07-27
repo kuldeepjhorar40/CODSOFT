@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="mainBox">
+        <div class="smallBox"id="display1"><input 
+            class="btns" id="display" type="text" readonly></div>
+        <div class="smallBox"id="smallBox1"><button class="btns" onclick="appendToDisplay('0')" value="0" type="submit">0</button></div>
+        <div class="smallBox"id="smallBox2"><button class="btns" onclick="appendToDisplay('1')" value="1" type="submit">1</button></div>
+        <div class="smallBox"id="smallBox3"><button class="btns" onclick="appendToDisplay('2')" value="2" type="submit">2</button></div>
+        <div class="smallBox"id="smallBox4"><button class="btns" onclick="appendToDisplay('3')" value="3" type="submit">3</button></div>
+        <div class="smallBox"id="smallBox5"><button class="btns" onclick="appendToDisplay('4')" value="4" type="submit">4</button></div>
+        <div class="smallBox"id="smallBox6"><button class="btns" onclick="appendToDisplay('5')" value="5" type="submit">5</button></div>
+        <div class="smallBox"id="smallBox7"><button class="btns" onclick="appendToDisplay('6')" value="6" type="submit">6</button></div>
+        <div class="smallBox"id="smallBox8"><button class="btns" onclick="appendToDisplay('7')" value="7" type="submit">7</button></div>
+        <div class="smallBox"id="smallBox9"><button class="btns" onclick="appendToDisplay('8')" value="8" type="submit">8</button></div>
+        <div class="smallBox"id="smallBox10"><button class="btns" onclick="appendToDisplay('9')" value="9" type="submit">9</button></div>
+        <div class="smallBox"id="smallBox11"><button class="btns" onclick="appendToDisplay('+')" value="+" type="submit">+</button></div>
+        <div class="smallBox"id="smallBox12"><button class="btns" onclick="appendToDisplay('-')" value="-" type="submit">-</button></div>
+        <div class="smallBox"id="smallBox13"><button class="btns" onclick="appendToDisplay('*')" value="*" type="submit">*</button></div>
+        <div class="smallBox"id="smallBox14"><button class="btns" onclick="appendToDisplay('/')" value="/" type="submit">/</button></div>
+        <div class="smallBox"id="smallBox14"><button class="btns" onclick="appendToDisplay('.')" value="." type="submit">.</button></div>
 
+            
+        <div class="smallBox"id="smallBox15"><button class="btns" onclick="calculate()" value="=" type="submit">=</button></div>
+        <div class="smallBox"id="smallBox16"><button class="btns" onclick="clearDisplay()" type="submit">C</button></div>
+        
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
